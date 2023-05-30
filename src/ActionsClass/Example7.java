@@ -8,5 +8,11 @@ public class Example7
 		
 		
 		System.out.println("gn");
+				
+		
+		System.out.println("Hi");
+		
+		
+		System.out.println("gn");
 	}
 }
