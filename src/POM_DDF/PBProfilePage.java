@@ -1,4 +1,4 @@
-package POM_With_Pagefactory;
+package POM_DDF;
 //pom class 6
 
 import java.util.ArrayList;
@@ -28,10 +28,9 @@ public class PBProfilePage
 		driver1.switchTo().window(al.get(1));
 	}
 	
-	public void verifyPBProfilePageFullName() 
+	public void verifyPBProfilePageFullName(String expName) 
 	{
 		String actName = fullName.getAttribute("value");
-		String expName="Jan batch";
 		
 		if(actName.equals(expName))
 		{

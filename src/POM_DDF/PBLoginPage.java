@@ -1,4 +1,4 @@
-package POM_With_Pagefactory;
+package POM_DDF;
 //pom class 1
 
 import org.openqa.selenium.WebDriver;

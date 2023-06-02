@@ -5,10 +5,10 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PBLoginTest 
+public class PBLogoutTest
 {
 	public static void main(String[] args) throws InterruptedException 
-	{		
+	{
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.policybazaar.com/");
@@ -29,17 +29,13 @@ public class PBLoginTest
 		
 		PBHomePage home=new PBHomePage(driver);
 		home.openDDOptionPBHomePageMyAcc();
-		Thread.sleep(2000);
-		
+		Thread.sleep(4000);
+				
 		PBMyAccPage myAcc=new PBMyAccPage(driver);
-		myAcc.clickPBMyAccPageMyProfile();
+		myAcc.clickPBMyAccPageSignOut();
+				
 		Thread.sleep(2000);
 		
-		PBProfilePage profile=new PBProfilePage(driver);
-		profile.switchToSwitchChildWindow();
-		profile.verifyPBProfilePageFullName();
-		Thread.sleep(2000);
-		
-		driver.quit();	
+		driver.quit();
 	}
 }

@@ -1,4 +1,4 @@
-package POM_With_Pagefactory;
+package POM_DDF;
 //pom class 3
 
 import org.openqa.selenium.WebDriver;
@@ -18,9 +18,9 @@ public class PBPwdPage
 	}
 	
 	
-	public void inpPBPwdPagePWD() 
+	public void inpPBPwdPagePWD(String password) 
 	{
-		pwd.sendKeys("Sanjay@23");
+		pwd.sendKeys(password);
 	}
 	
 	public void clickPBPwdPageSignIn()
