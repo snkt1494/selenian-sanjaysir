@@ -1,61 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[--running TC5--]]>
+    </line>
+    <line>
+      <![CDATA[--running TC4--]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-10T20:46:49 IST" name="Default suite" finished-at="2023-06-10T20:46:49 IST" duration-ms="33">
+  <suite started-at="2023-06-14T19:43:48 IST" name="Failed suite [Suite]" finished-at="2023-06-14T19:43:48 IST" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2023-06-10T20:46:49 IST" name="Default test" finished-at="2023-06-10T20:46:49 IST" duration-ms="33">
-      <class name="TestNG.Example7_SoftAssertClass1">
-        <test-method signature="TC5()[pri:0, instance:TestNG.Example7_SoftAssertClass1@247d8ae]" started-at="2023-06-10T20:46:49 IST" name="TC5" finished-at="2023-06-10T20:46:49 IST" duration-ms="7" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Failed1: both results are diff-  expected [hi] but found [hello],
-Failed2: act result is false-  expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Failed1: both results are diff-  expected [hi] but found [hello],
-Failed2: act result is false-  expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at TestNG.Example7_SoftAssertClass1.TC5(Example7_SoftAssertClass1.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2023-06-14T19:43:48 IST" name="Test(failed)" finished-at="2023-06-14T19:43:48 IST" duration-ms="35">
+      <class name="TestNG.example9">
+        <test-method signature="TC5()[pri:0, instance:TestNG.example9@932bc4a]" started-at="2023-06-14T19:43:48 IST" name="TC5" finished-at="2023-06-14T19:43:48 IST" duration-ms="7" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[--running TC5--]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TC5 -->
-      </class> <!-- TestNG.Example7_SoftAssertClass1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method signature="TC4()[pri:0, instance:TestNG.example9@932bc4a]" started-at="2023-06-14T19:43:48 IST" name="TC4" finished-at="2023-06-14T19:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running TC4--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+      </class> <!-- TestNG.example9 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>
