@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[--running TC5--]]>
-    </line>
-    <line>
-      <![CDATA[--running TC4--]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-06-14T19:43:48 IST" name="Failed suite [Suite]" finished-at="2023-06-14T19:43:48 IST" duration-ms="35">
+  <suite started-at="2023-06-15T20:39:10 IST" name="ParallelExetion" finished-at="2023-06-15T20:39:23 IST" duration-ms="12432">
     <groups>
     </groups>
-    <test started-at="2023-06-14T19:43:48 IST" name="Test(failed)" finished-at="2023-06-14T19:43:48 IST" duration-ms="35">
-      <class name="TestNG.example9">
-        <test-method signature="TC5()[pri:0, instance:TestNG.example9@932bc4a]" started-at="2023-06-14T19:43:48 IST" name="TC5" finished-at="2023-06-14T19:43:48 IST" duration-ms="7" status="PASS">
+    <test started-at="2023-06-15T20:39:10 IST" name="Test1" finished-at="2023-06-15T20:39:22 IST" duration-ms="11060">
+      <class name="TestNG.example11_Parallel1">
+        <test-method signature="openFacebookApp()[pri:0, instance:TestNG.example11_Parallel1@50ad3bc1]" started-at="2023-06-15T20:39:10 IST" name="openFacebookApp" finished-at="2023-06-15T20:39:22 IST" duration-ms="11021" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[--running TC5--]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- TC5 -->
-        <test-method signature="TC4()[pri:0, instance:TestNG.example9@932bc4a]" started-at="2023-06-14T19:43:48 IST" name="TC4" finished-at="2023-06-14T19:43:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- openFacebookApp -->
+      </class> <!-- TestNG.example11_Parallel1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-06-15T20:39:10 IST" name="Test2" finished-at="2023-06-15T20:39:23 IST" duration-ms="12432">
+      <class name="TestNG.example11_Parallel2">
+        <test-method signature="openGoogleApp()[pri:0, instance:TestNG.example11_Parallel2@74751b3]" started-at="2023-06-15T20:39:10 IST" name="openGoogleApp" finished-at="2023-06-15T20:39:23 IST" duration-ms="12396" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[--running TC4--]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- TC4 -->
-      </class> <!-- TestNG.example9 -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+        </test-method> <!-- openGoogleApp -->
+      </class> <!-- TestNG.example11_Parallel2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- ParallelExetion -->
 </testng-results>
